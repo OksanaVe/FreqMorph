@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="BEAST v2.5.1:SA v2.0.1:MM v1.1.1" version="2.5">
+
+
+    <data id="Angiosperms_Doyle_Endress_2014" dataType="standard">
+                            <sequence id="seq_Amborella" taxon="Amborella" totalcount="2" value="100?000000?0?0000{23}000120000010000010000001000011000000?20001000?20000100000000100110?020?01011110000001210?010000010?111?00100000000000100000001234"/>
+                            <sequence id="seq_Cabomba" taxon="Cabomba" totalcount="2" value="100101?00??????01?10{01}12000?011110102?10002000000000001012?110010010?02010020001000000020?1{01}011110000100100?0100210000010001?00010000010020100?01234"/>
+                            <sequence id="seq_Brasenia" taxon="Brasenia" totalcount="2" value="100101?00???????1?10012?00001101000?01000?000?00000001012?000010210002010010000100000020?0001113000?100100?010011000??10??1?00010000010?20100101234"/>
+                            <sequence id="seq_Nuphar" taxon="Nuphar" totalcount="2" value="10?101?00??????01?10003100?011000002?110020000000000010211000012210000021001000{01}00000010?01111120200000112?0000210000020000000010000011000100101234"/>
+                            <sequence id="seq_Barclaya" taxon="Barclaya" totalcount="2" value="10?101?00??????01?1000??00?01100000??11002000?0200000122100000122?00000010000??00112??20?000???212000002?2?010021?10?000?000000???00010000100101234"/>
+                            <sequence id="seq_Nymphaeoideae" taxon="Nymphaeoideae" totalcount="2" value="100101?00??????01?100031010011000002?1100200020200010122100000122?0001001000000{01}0012??10?000?1220200000212?010021000{01}0{12}0{01}00000010000011000100101234"/>
+                            <sequence id="seq_Trithuria" taxon="Trithuria" totalcount="2" value="1??101??0??????01?0000?000002????0?2?00??210021?000?1???????01??????0201?0100??002000020?010?01000??0?02???01000?000??00001?0001??0001000010?101234"/>
+                            <sequence id="seq_Austrobaileya" taxon="Austrobaileya" totalcount="2" value="100000010000?00001001020000010000000000100000000000000?21000000?20010100000000000110002100001113000110011000000201000021200000101100100??0000001234"/>
+                            <sequence id="seq_Trimenia" taxon="Trimenia" totalcount="2" value="{01}00000010{01}{01}{01}00000100102000?0{01}000001000011100{01}0{01}0000?00?20000000?{12}000020000{12}000000112??210010111000000012??{01}0{01}000000001210000000110000?00?0000?01234"/>
+                            <sequence id="seq_Illicium" taxon="Illicium" totalcount="2" value="010000010000000000000010000000000000011110000000000100?21000000?{12}0000101000000000113??210000111211011001101000000200112{12}001?10{01}11000000000000001234"/>
+                            <sequence id="seq_Schisandra" taxon="Schisandra" totalcount="2" value="11000001100000000100001000?00000001000111{02}000010100000?21000000?{012}010010100{02}000000113??2100001113000100011010000101000{01}21000000011000000000000001234"/>
+                            <sequence id="seq_Hedyosmum" taxon="Hedyosmum" totalcount="2" value="{01}00000010{01}01000?0000102?12?000000013000102101112000?0100{01}??101??????000{01}10101?00011001210010102000001011??0000000010?111?01?00000000000100000001234"/>
+                            <sequence id="seq_Ascarina" taxon="Ascarina" totalcount="2" value="10000001000100?00000102012?00000001?00010200101?000?1???????0{01}??000?000010101???011000210010102000000011??0000000010?002?0000000??12000??0000?01234"/>
+                            <sequence id="seq_Sarcandra" taxon="Sarcandra" totalcount="2" value="10000001000100000100102012?00000001100?10200100?000?1???????01??????010110110000011???210000102000000000??1000000010?022?00000100010000100000001234"/>
+                            <sequence id="seq_Chloranthus" taxon="Chloranthus" totalcount="2" value="10000001000100000000102012000000001000010200100?000?1???????0???????0{01}0000010000011???21000011{12}000000010??1000000010?122?0000000001{02}000100000?01234"/>
+                            <sequence id="seq_Liriodendron" taxon="Liriodendron" totalcount="2" value="000010010110011{01}00000000130000001000110100000000102001021000100?200000011020?00000000020?0000213220011010000000101000021001?00101020000100000001234"/>
+                            <sequence id="seq_Magnolioideae" taxon="Magnolioideae" totalcount="2" value="000010010110011{01}00000{01}0013000000000011110000000010200102{12}000100?2000000{01}100{01}0000000000{12}0?0000213220010010000000{12}01000021001?10100120000100000001234"/>
+                            <sequence id="seq_Degeneria" taxon="Degeneria" totalcount="2" value="000010010111011100000101000000000000100100000000001000?21001000?200110001021000000000000?0000?0022110002??00000201001021000010100120100100000001234"/>
+                            <sequence id="seq_Galbulimima" taxon="Galbulimima" totalcount="2" value="000010011{01}100110010001310000000000001?01000000001010????????100?200110001021001001100000?0000?032?010101100??00001001021000100000100?001?0000001234"/>
+                            <sequence id="seq_Eupomatia" taxon="Eupomatia" totalcount="2" value="00000001011100010000010100000000000011010000000100001???????100?20111{01}00100100000112??00?0000213?21101021?000002010000210000001020001001?0000001234"/>
+                            <sequence id="seq_Annonaceae" taxon="Annonaceae" totalcount="2" value="0{01}0010012{01}11{01}11100000131000000000000{01}1110100000000{01}0010210000010210{01}{01}000102110{01}000000000?00002132101{01}101100{01}000{12}0{12}00002120{01}0{01}0102000100100000{01}01234"/>
+                            <sequence id="seq_Myristicaceae" taxon="Myristicaceae" totalcount="2" value="0100100111100110000001300000000000001111020{01}{01}{02}10000?0100{01}??100{01}00?1?0?010020001001100021000012{12}012000101??{01}{01}00000200{01}022100010000042201110000101234"/>
+                            <sequence id="seq_Calycanthoideae" taxon="Calycanthoideae" totalcount="2" value="011000012110000102001020000010000000000100000001000000?21000000?2001{01}0000020000{01}0112??2100000213221011011001000102000122001?00100030000101010001234"/>
+                            <sequence id="seq_Idiospermum" taxon="Idiospermum" totalcount="2" value="0110?001211001?10200102000?0000000000??100000001000000?21000000?2001000000200???0112???0?000???{01}221001111001000102000122001?000?????000??1010101234"/>
+                            <sequence id="seq_Atherospermatac" taxon="Atherospermatac" totalcount="2" value="010000010000000102001020000000000022010101000001000000?21000000?20010{01}1{01}11{012}20000011000210000{01}213110011011001000002001111001?000000300001?0000?01234"/>
+                            <sequence id="seq_Siparunaceae" taxon="Siparunaceae" totalcount="2" value="01000001{01}1100001000010{12}00000000000202{01}0102100?1100?00??{01}{01}???00??{12}?0?0{01}01110200100211??10?010?21311001101100000000201????00010000????000100000001234"/>
+                            <sequence id="seq_Hortonia" taxon="Hortonia" totalcount="2" value="00000001000100?10200102?00?011000020010101000001000000?21000000?{12}001021100200??00111???0?010??031101110110110000000000120001000000300001?0000?01234"/>
+                            <sequence id="seq_Monimioideae" taxon="Monimioideae" totalcount="2" value="000000011111000{01}0200102000000000000201010100001100?000?{12}{01}000000?200?0211000100100111??10?001??031100110110110000000001{12}?0001000000300001000?0001234"/>
+                            <sequence id="seq_Mollinedioideae" taxon="Mollinedioideae" totalcount="2" value="00000001011100010200102?00?000000020010101000011000001{12}{12}000?00{01}{12}{12}{01}0?000100000010{01}{12}11??1{02}?0{01}{01}??0300000001100{01}00000000{01}0120001000000300001?00{01}0001234"/>
+                            <sequence id="seq_Gomortega" taxon="Gomortega" totalcount="2" value="00000001000000010200102000000000000001010100000200?000?10000000?20010211110200000111??10?010??0112101101??0000000010?111?00100000030000?00010?01234"/>
+                            <sequence id="seq_Lauraceae" taxon="Lauraceae" totalcount="2" value="00000001{12}10010{01}10200{01}0200000{01}{01}000000010111100002000?010100000010200102111{01}020{01}100111??02?001??1012121101??0{01}000000000{01}2{12}100{01}00100030000111010101234"/>
+                            <sequence id="seq_Hernandioideae" taxon="Hernandioideae" totalcount="2" value="000000012{01}001001000000100000110{01}0000210112100002000?01{012}{12}{02}000001210010211110201100011??02?001??1012121101??01000000000022{01}00100100000{12}00101010{01}01234"/>
+                            <sequence id="seq_Gyrocarpoideae" taxon="Gyrocarpoideae" totalcount="2" value="0000?001210{01}10?10200001?000011000{01}002101?2100002000?01200??{01}0012{01}00{01}0211112201100111?????0?1???012121101??01000000000022000100100030000101010101234"/>
+                            <sequence id="seq_Winteraceae" taxon="Winteraceae" totalcount="2" value="0100000000?1?00{01}0000003000000000000000010100000000000112100100122{01}00010100201000111010210000111{13}221100010{01}00000201000011000000010000000100000001234"/>
+                            <sequence id="seq_Canellaceae" taxon="Canellaceae" totalcount="2" value="010000010000{01}0010{01}00003000?00000000{02}0{01}010{01}0000000000010{12}1001001210100?0100200000011000210000002121010?01?100000{12}0100101100000001000000{01}1?0000?01234"/>
+                            <sequence id="seq_Saururaceae" taxon="Saururaceae" totalcount="2" value="100000?10011??000{01}00010111001100000301010200100200001???????001{01}{01}10002011010000002100020?000102122101001011000020110?101?0001000??01000100100001234"/>
+                            <sequence id="seq_Piperaceae" taxon="Piperaceae" totalcount="2" value="10000011{12}{01}1100?00{01}000{01}0111?01100000301010200100000001???????001{01}{01}{01}00020110{01}0000002100020?0101011?210{01}?01?1100000?210?{01}1{12}?00000000001000?{01}0100001234"/>
+                            <sequence id="seq_Lactoris" taxon="Lactoris" totalcount="2" value="10000011211100000000012111?0010000020101010000{01}000000100{01}??00010100000000020000111101010?0000011221010010000000201000101011?1000??00000100000?01234"/>
+                            <sequence id="seq_Asaroideae" taxon="Asaroideae" totalcount="2" value="100000112?11??020{03}0001310000110000020101000000020000010{01}{01}{01}010010{12}100020000200000011{01}002{01}000011122211{01}0020200000201000{01}01001?1000??02000100000001234"/>
+                            <sequence id="seq_Aristolochioideae" taxon="Aristolochioideae" totalcount="2" value="1000001120{01}100010300013100001100000201010210000200000100{01}??10010{01}1{01}00{02}010020??{01}00111??20?0{01}0?11222100?01?200000201000{01}01001??01{01}??{04}2000100000001234"/>
+                            <sequence id="seq_Euptelea" taxon="Euptelea" totalcount="2" value="0000000101010100010000100000{01}{01}00003221000200000000001???????001?0?0?0200001110000114??21001011121210000100?0000100000021001?00020040000100000001234"/>
+                            <sequence id="seq_Papaveraceae" taxon="Papaveraceae" totalcount="2" value="10000011211100?0011000{13}?{01}0?01100011201000{12}00000000000112{01}1000011{01}100020100200{01}000114??2{01}?0{01}011{12}120001?01?1?0000200001002001?2001??{01}2000110000001234"/>
+                            <sequence id="seq_Lardizabalaceae" taxon="Lardizabalaceae" totalcount="2" value="{01}0000011{02}{01}1100?00{01}0000300000110001{01}2210002000010000001022110001010{01}00201002000000114??20?000111{13}2101010110?0000{02}0100{01}0{12}{01}000000110000000100000001234"/>
+                            <sequence id="seq_Circaeaster" taxon="Circaeaster" totalcount="2" value="100000????????????00001?00?0?11000?2??0001000000000000?0{01}??0000?000?0201010000000114??20?1001??{01}00000101?0?000010011????011?0100????000100000001234"/>
+                            <sequence id="seq_Menispermaceae" taxon="Menispermaceae" totalcount="2" value="{01}0000011200100?0010{01}003000001100000021001100001000000102{01}11000101000020100{01}000000214??21000011112100{01}1{01}{01}10?{01}00010200{01}010000100000000{01}00110010001234"/>
+                            <sequence id="seq_Berberidaceae" taxon="Berberidaceae" totalcount="2" value="10000011211100?00{01}0000{03}?1{01}?01100011221000100000000{01}?010211{01}0001010000{02}0100{012}20{01}000114??21{02}00011{12}00001{01}000???000020{12}00012{12}0000{02}0{01}1000000{01}110000001234"/>
+                            <sequence id="seq_Glaucidium" taxon="Glaucidium" totalcount="2" value="1000???11111???0??00010??0?01100011??????000000000200111200000??2?00020100?0????0114??210010?1212???011?00???0020100??22?11?10010000000?10010001234"/>
+                            <sequence id="seq_Hydrastis" taxon="Hydrastis" totalcount="2" value="100000?11111???0??00010?10?011000112?0000000000000000100{01}??000??2?0001010010?0?00114??2101001123221?111000?100020{02}001122001?10010000000?10000001234"/>
+                            <sequence id="seq_core_Ranunculac" taxon="core_Ranunculac" totalcount="2" value="100000112111???00{01}0000{03}?10?011000112{02}10001000000000000?12110000?20000201001000000114??20?010111{13}2211110100?{01}000{012}0?00002{01}011?10010000000110000001234"/>
+                            <sequence id="seq_Nelumbo" taxon="Nelumbo" totalcount="2" value="1??001?10??????0??1001?111?011010002?10000000000010000?2100000??2000020000{12}000010014??21000011130001000100?0000000000122101?00000000000111010101234"/>
+                            <sequence id="seq_Platanus" taxon="Platanus" totalcount="2" value="00000001100100000100010111?00100013111000{12}011210000001{02}10000001{02}00000002{01}01110000114??21000011232211100100???0010010?112?01?00001000000110010001234"/>
+                            <sequence id="seq_Proteaceae" taxon="Proteaceae" totalcount="2" value="00000001{12}{01}11{01}0{01}00{01}000030000001000{01}0{01}{01}1{01}002000000000?01110000001110000201000000000124??2{01}0000?02022111101???000010010?10{12}?0{01}100{01}0000000011{01}010001234"/>
+                            <sequence id="seq_Tetracentron" taxon="Tetracentron" totalcount="2" value="0000000000?{01}?0?00100013011001100001101??0{12}001002000001110000001110000201101110000114??212100112122111001?2?0010200000002001?1002??420001?0000101234"/>
+                            <sequence id="seq_Trochodendron" taxon="Trochodendron" totalcount="2" value="0000000000?1?000010000300000{01}{01}0000110110010000020010????????00{01}220000201101110000114??21210011222201100102?0010200000102001?1002??42000100000101234"/>
+                            <sequence id="seq_Buxaceae" taxon="Buxaceae" totalcount="2" value="000000010000000?0000{01}0100000{01}10000{01}101000100{01}010000001110000001110000200000010000114??210{01}001?112211100102?001010000112100{01}0{01}001??{04}00001000{01}0001234"/>
+                            <sequence id="seq_Acorus" taxon="Acorus" totalcount="2" value="120001?10??????2030001011011220000000001020012000000010100000010100002010000001002000020?000011112010101?2{01}00002?010?010?10000000001000100201001234"/>
+                            <sequence id="seq_Tofieldiaceae" taxon="Tofieldiaceae" totalcount="2" value="120001?????????20300010?100122000002000002{01}0000000000101000000101{01}0002010000?00001000021100000112201110100?0001201000100001?100{01}??00000120011001234"/>
+                            <sequence id="seq_Butomus" taxon="Butomus" totalcount="2" value="120101?11??????2030001011010220000000100021000000000010110000010110002010020011101000021100000132101110200?0001212000000001?1002??00000121011001234"/>
+                            <sequence id="seq_Aponogeton" taxon="Aponogeton" totalcount="2" value="120101?????????21?10??0?1010120000000100020012000000010{01}{02}0000010100002010020?1{01}101{01}00001001010112101110100?0000202000020001??0030000000121011001234"/>
+                            <sequence id="seq_Scheuchzeria" taxon="Scheuchzeria" totalcount="2" value="120101?10??????20300010?10112200000301000100000000?0010100000010100002000020?111?111??21?000???12101110100?000010{12}000022001?1003100000012?011101234"/>
+                            <sequence id="seq_Araceae" taxon="Araceae" totalcount="2" value="120001?10??????2{01}3{01}1010110{01}0{12}{12}0000000{01}0002001200000001{01}10000001{01}100001010020?1100100002{01}?000011{01}{01}0010{01}0{012}?2?0000{01}0{02}{01}{01}00220000000000?0000120011101234"/>
+                            <sequence id="seq_Nartheciaceae" taxon="Nartheciaceae" totalcount="2" value="120001?10??????203000{01}0?100{01}2200000200000200000000?0010120000010100002010000?01?01000021100000112101110102?000{01}20200??10001?10010000000120001001234"/>
+                            <sequence id="seq_Dioscoreaceae" taxon="Dioscoreaceae" totalcount="2" value="1?0001?10??????20301003?{01}{01}0011000002{02}1000{12}0000020000010120000010100002010000000001000020?0000011210111010{12}?0001{12}0{01}0000{02}0001?{01}00000{04}20001100{01}1101234"/>
+                            <sequence id="seq_Melanthiaceae" taxon="Melanthiaceae" totalcount="2" value="120001?10??????20301000?1000220000020000020000000000010120?00010100002010020?01001000021100010112101110102?000020200??10001?10010000000120001001234"/>
+                            <sequence id="seq_Ceratophyllum" taxon="Ceratophyllum" totalcount="2" value="1??101?????????01?0010?00000??10?1???00??2001{12}1?000?1???????01??????000?10{02}000{01}00111???????????000001?00???000000011?????01?0000????000100010?01234"/>
+                            <sequence id="seq_Archaefructus" taxon="Archaefructus" totalcount="2" value="1???????????????????0???00?0111001???????200021?00?01????????0?10?0??000????????010000?0?000???{01}????1????0?????200????????1??0?1??????????????01234"/>
+                            <sequence id="seq_Liliacidites" taxon="Liliacidites" totalcount="2" value="????????????????????????????????????????????????????????????????????????????????010000211000001???????????????????????????????????????????????01234"/>
+                            <sequence id="seq_Archaeanthus" taxon="Archaeanthus" totalcount="2" value="?????0??????????????0???13?0{01}000100????1?000000010??010210?010??2??????????????????????????????32???0????0?????2010?????????1?????????????????01234"/>
+                            <sequence id="seq_Endressinia" taxon="Endressinia" totalcount="2" value="????????????????????0??????0{01}000000????1?{01}000?0000??0??{12}?????0??2??11??????????????????????????32???0?0??0????????????????????????????????????01234"/>
+                            <sequence id="seq_Virginianthus" taxon="Virginianthus" totalcount="2" value="???????????????????????????????????????????00?0100??00?{12}???0000?2001?0001021????0{12}10002100001023?????????0?????{12}?????????????0????????????????01234"/>
+                            <sequence id="seq_Mauldinia" taxon="Mauldinia" totalcount="2" value="?????001110000?????????????????????0???1?{12}10100100??010110000010200102111102???????????????????0????11?????00??0?00???????0100???????????0????01234"/>
+                            <sequence id="seq_Walkeripollis" taxon="Walkeripollis" totalcount="2" value="????????????????????????????????????????????????????????????????????????????????111010210010111???????????????????????????????????????????????01234"/>
+                            <sequence id="seq_Nelumbites" taxon="Nelumbites" totalcount="2" value="1??????????????????????????01101000????????0???{01}01?00??{12}{12}??????????????????????????????????????3????????00????????????????????????????????????01234"/>
+                            <sequence id="seq_Sapindopsis" taxon="Sapindopsis" totalcount="2" value="???????????????????????????00000010{01}?????{12}011?1000??012{12}00?00?????0??201?011????0214??21000011212???0????0?????{01}?01???????1?10?{02}??????????????01234"/>
+                            <sequence id="seq_West_Bros_plat" taxon="West_Bros_plat" totalcount="2" value="?????????????????????????????????????????{12}011?1000??0??{12}00?00012000??002{01}011????0214??21000011212???0????0????????????????????????????????????01234"/>
+                            <sequence id="seq_Spanomera" taxon="Spanomera" totalcount="2" value="?????????????????????????????????????????100001000?0011100?000111{01}00?0000000????0114??21010011{12}12???0001?2????????????????1?10????????????????01234"/>
+                            <sequence id="seq_Monetianthus" taxon="Monetianthus" totalcount="2" value="???????????????????????????????????????????00?0200010??{12}???000??2?0?????????????0{12}1000210000???2????000??2?????21200??????????????????????????01234"/>
+                            <sequence id="seq_Carpestella" taxon="Carpestella" totalcount="2" value="???????????????????????????????????????????00?0200??0??2???000??2?0????????????????????????????2?????????2????????????????????????????????????01234"/>
+                            <sequence id="seq_Pluricarpellatia" taxon="Pluricarpellatia" totalcount="2" value="1???????????????????0???00?01101000??????{02}000??000?????????????????????????????????????????????{23}????0????0?????2??0??????????0?1?????1????????01234"/>
+                            <sequence id="seq_Anacostia" taxon="Anacostia" totalcount="2" value="???????????????????????????????????????????00??010??????????????????????????????0{12}100021200011{12}3????0????0?????00200??????0000?1100000????????01234"/>
+                            <sequence id="seq_Couperites" taxon="Couperites" totalcount="2" value="????????????????????????????????????????????????????????????????????????????????011000210010102?????0??????????0?000??????0000?10?0200????????01234"/>
+                            <sequence id="seq_Asteropollis_plant" taxon="Asteropollis_plant" totalcount="2" value="?????????????????????????????????????????2??1{12}1200??0100{01}??101??????00011010????0110012100101??0????1??????????0??1?????????00????????????????01234"/>
+                            <sequence id="seq_Zlatkocarpus" taxon="Zlatkocarpus" totalcount="2" value="?????????????????????????????????????????2001{01}1200??01?0{01}???0???????????????????0{12}10002100001??0????00?????????0??????????0000????????????????01234"/>
+                            <sequence id="seq_Pennipollis_plant" taxon="Pennipollis_plant" totalcount="2" value="?????????????????????????????????????????2?0?{12}1??????????????1??????000000{02}0????021000010010102?????0??????????0??1???????0000?0????00????????01234"/>
+                            <sequence id="seq_Canrightia" taxon="Canrightia" totalcount="2" value="????????????????????????????????????????????100200?001?0{01}???001?0?00?00??01?????0{12}1000210000??11????0????11????0?010??01??0000?0??10000???????01234"/>
+                            <sequence id="seq_Appomattoxia" taxon="Appomattoxia" totalcount="2" value="???????????????????????????????????????????????????????????????????????100?0????0{12}100010?010112?????00?1???????0?01???????1?01?0???100????????01234"/>
+                            <userDataType id="StandardData.0" spec="beast.evolution.datatype.StandardData" ambiguities="23 01 12 012 02 13 03 04" nrOfStates="2"/>
+                        </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="20000000" storeEvery="1000">
+    <state id="state" storeEvery="1000">
+        <tree id="Tree.t:Angiosperms_Doyle_Endress_2014" name="stateNode">
+            <trait id="dateTrait.t:Angiosperms_Doyle_Endress_2014" spec="beast.evolution.tree.TraitSet" traitname="date-backward">
+                Amborella=0,
+Cabomba=0,
+Brasenia=0,
+Nuphar=0,
+Barclaya=0,
+Nymphaeoideae=0,
+Trithuria=0,
+Austrobaileya=0,
+Trimenia=0,
+Illicium=0,
+Schisandra=0,
+Hedyosmum=0,
+Ascarina=0,
+Sarcandra=0,
+Chloranthus=0,
+Liriodendron=0,
+Magnolioideae=0,
+Degeneria=0,
+Galbulimima=0,
+Eupomatia=0,
+Annonaceae=0,
+Myristicaceae=0,
+Calycanthoideae=0,
+Idiospermum=0,
+Atherospermatac=0,
+Siparunaceae=0,
+Hortonia=0,
+Monimioideae=0,
+Mollinedioideae=0,
+Gomortega=0,
+Lauraceae=0,
+Hernandioideae=0,
+Gyrocarpoideae=0,
+Winteraceae=0,
+Canellaceae=0,
+Saururaceae=0,
+Piperaceae=0,
+Lactoris=0,
+Asaroideae=0,
+Aristolochioideae=0,
+Euptelea=0,
+Papaveraceae=0,
+Lardizabalaceae=0,
+Circaeaster=0,
+Menispermaceae=0,
+Berberidaceae=0,
+Glaucidium=0,
+Hydrastis=0,
+core_Ranunculac=0,
+Nelumbo=0,
+Platanus=0,
+Proteaceae=0,
+Tetracentron=0,
+Trochodendron=0,
+Buxaceae=0,
+Acorus=0,
+Tofieldiaceae=0,
+Butomus=0,
+Aponogeton=0,
+Scheuchzeria=0,
+Araceae=0,
+Nartheciaceae=0,
+Dioscoreaceae=0,
+Melanthiaceae=0,
+Ceratophyllum=0,
+Archaefructus=0,
+Liliacidites=0,
+Archaeanthus=0,
+Endressinia=0,
+Virginianthus=0,
+Mauldinia=0,
+Walkeripollis=0,
+Nelumbites=0,
+Sapindopsis=0,
+West_Bros_plat=0,
+Spanomera=0,
+Monetianthus=1.12,
+Carpestella=1.06,
+Pluricarpellatia=1.14,
+Anacostia=1.12,
+Couperites=0.99,
+Asteropollis_plant=1.13,
+Zlatkocarpus=0.96,
+Pennipollis_plant=1.12,
+Canrightia=1.13,
+Appomattoxia=1.13                <taxa id="TaxonSet.Angiosperms_Doyle_Endress_20142" spec="TaxonSet">
+                    <alignment id="Angiosperms_Doyle_Endress_20142" spec="FilteredAlignment" ascertained="true" excludefrom="91" excludeto="93" filter="1,3-8,10-15,17,19-22,24-25,27-28,31-34,38-41,43-45,47,49-50,52-54,58-63,66-69,71,73-74,77-81,85-86,90-93,99,101-103,105,107-111,113,115-118,122-124,126-127,130,134-136,138,140-142,143-144">
+                        <data idref="Angiosperms_Doyle_Endress_2014"/>
+                        <userDataType id="morphDataType.Angiosperms_Doyle_Endress_20142" spec="beast.evolution.datatype.StandardData" ambiguities="23 01 12 012 02 13 03 04" nrOfStates="2"/>
+                    </alignment>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.Angiosperms_Doyle_Endress_20142"/>
+        </tree>
+        <parameter id="ucldStdev.c:Angiosperms_Doyle_Endress_2014" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Angiosperms_Doyle_Endress_2014" spec="parameter.IntegerParameter" dimension="170">1</stateNode>
+        <parameter id="birthRate2.t:Angiosperms_Doyle_Endress_2014" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:Angiosperms_Doyle_Endress_2014" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="ucldMean.c:Angiosperms_Doyle_Endress_2014" name="stateNode">1.0</parameter>
+        <parameter id="diversificationRateFBD.t:Angiosperms_Doyle_Endress_2014" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="turnoverFBD.t:Angiosperms_Doyle_Endress_2014" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="samplingProportionFBD.t:Angiosperms_Doyle_Endress_2014" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="originFBD.t:Angiosperms_Doyle_Endress_2014" lower="0.0" name="stateNode">100.0</parameter>
+    </state>
+
+    <init id="RandomTree.t:Angiosperms_Doyle_Endress_2014" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Angiosperms_Doyle_Endress_2014" taxa="@Angiosperms_Doyle_Endress_20142">
+        <populationModel id="ConstantPopulation0.t:Angiosperms_Doyle_Endress_2014" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Angiosperms_Doyle_Endress_2014" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="FBD.t:Angiosperms_Doyle_Endress_2014" spec="beast.evolution.speciation.SABirthDeathModel" conditionOnRhoSampling="true" diversificationRate="@diversificationRateFBD.t:Angiosperms_Doyle_Endress_2014" origin="@originFBD.t:Angiosperms_Doyle_Endress_2014" samplingProportion="@samplingProportionFBD.t:Angiosperms_Doyle_Endress_2014" tree="@Tree.t:Angiosperms_Doyle_Endress_2014" turnover="@turnoverFBD.t:Angiosperms_Doyle_Endress_2014">
+                <parameter id="rFBD.t:Angiosperms_Doyle_Endress_2014" lower="0.0" name="removalProbability" upper="1.0">0.0</parameter>
+                <parameter id="rhoFBD.t:Angiosperms_Doyle_Endress_2014" estimate="false" lower="0.0" name="rho" upper="1.0">1.0</parameter>
+            </distribution>
+            <prior id="diversificationRatePriorFBD.t:Angiosperms_Doyle_Endress_2014" name="distribution" x="@diversificationRateFBD.t:Angiosperms_Doyle_Endress_2014">
+                <Uniform id="Uniform.10" name="distr" upper="Infinity"/>
+            </prior>
+            <prior id="originPriorFBD.t:Angiosperms_Doyle_Endress_2014" name="distribution" x="@originFBD.t:Angiosperms_Doyle_Endress_2014">
+                <Uniform id="Uniform.9" name="distr" upper="Infinity"/>
+            </prior>
+            <prior id="samplingProportionPriorFBD.t:Angiosperms_Doyle_Endress_2014" name="distribution" x="@samplingProportionFBD.t:Angiosperms_Doyle_Endress_2014">
+                <Uniform id="Uniform.12" name="distr"/>
+            </prior>
+            <prior id="turnoverPriorFBD.t:Angiosperms_Doyle_Endress_2014" name="distribution" x="@turnoverFBD.t:Angiosperms_Doyle_Endress_2014">
+                <Uniform id="Uniform.11" name="distr"/>
+            </prior>
+            <prior id="MeanRatePrior.c:Angiosperms_Doyle_Endress_2014" name="distribution" x="@ucldMean.c:Angiosperms_Doyle_Endress_2014">
+                <Uniform id="Uniform.6" name="distr" upper="Infinity"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Angiosperms_Doyle_Endress_2014" name="distribution" x="@ucldStdev.c:Angiosperms_Doyle_Endress_2014">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.4" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.5" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="morphTreeLikelihood.Angiosperms_Doyle_Endress_20142" spec="TreeLikelihood" data="@Angiosperms_Doyle_Endress_20142" tree="@Tree.t:Angiosperms_Doyle_Endress_2014">
+                <siteModel id="morphSiteModel.s:Angiosperms_Doyle_Endress_20142" spec="SiteModel" gammaCategoryCount="4">
+                    <parameter id="mutationRate.s:Angiosperms_Doyle_Endress_20142" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:Angiosperms_Doyle_Endress_20142" estimate="false" name="shape">1.0</parameter>
+                    <substModel id="LewisMK.s:Angiosperms_Doyle_Endress_20142" spec="LewisMK" datatype="@morphDataType.Angiosperms_Doyle_Endress_20142"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Angiosperms_Doyle_Endress_2014" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" clock.rate="@ucldMean.c:Angiosperms_Doyle_Endress_2014" rateCategories="@rateCategories.c:Angiosperms_Doyle_Endress_2014" tree="@Tree.t:Angiosperms_Doyle_Endress_2014">
+                    <LogNormal id="LogNormalDistributionModel.c:Angiosperms_Doyle_Endress_2014" S="@ucldStdev.c:Angiosperms_Doyle_Endress_2014" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.3" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                </branchRateModel>
+            </distribution>
+            <distribution id="morphTreeLikelihood.Angiosperms_Doyle_Endress_20144" spec="TreeLikelihood" branchRateModel="@RelaxedClock.c:Angiosperms_Doyle_Endress_2014" tree="@Tree.t:Angiosperms_Doyle_Endress_2014">
+                <data id="Angiosperms_Doyle_Endress_20144" spec="FilteredAlignment" ascertained="true" data="@Angiosperms_Doyle_Endress_2014" excludefrom="50" excludeto="54" filter="2,9,16,18,23,26,29-30,35-37,42,46,48,51,55-57,64-65,70,72,75-76,82-84,87-89,94-98,100,104,106,112,114,119-121,125,128-129,132-133,137,139,143-146">
+                    <userDataType id="morphDataType.Angiosperms_Doyle_Endress_20144" spec="beast.evolution.datatype.StandardData" ambiguities="23 01 12 012 02 13 03 04" nrOfStates="4"/>
+                </data>
+                <siteModel id="morphSiteModel.s:Angiosperms_Doyle_Endress_20144" spec="SiteModel" gammaCategoryCount="4">
+                    <parameter id="mutationRate.s:Angiosperms_Doyle_Endress_20144" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:Angiosperms_Doyle_Endress_20144" estimate="false" name="shape">1.0</parameter>
+                    <substModel id="LewisMK.s:Angiosperms_Doyle_Endress_20144" spec="LewisMK" datatype="@morphDataType.Angiosperms_Doyle_Endress_20144"/>
+                </siteModel>
+            </distribution>
+            <distribution id="morphTreeLikelihood.Angiosperms_Doyle_Endress_20145" spec="TreeLikelihood" branchRateModel="@RelaxedClock.c:Angiosperms_Doyle_Endress_2014" tree="@Tree.t:Angiosperms_Doyle_Endress_2014">
+                <data id="Angiosperms_Doyle_Endress_20145" spec="FilteredAlignment" ascertained="true" data="@Angiosperms_Doyle_Endress_2014" excludefrom="1" excludeto="6" filter="131,143-147">
+                    <userDataType id="morphDataType.Angiosperms_Doyle_Endress_20145" spec="beast.evolution.datatype.StandardData" ambiguities="23 01 12 012 02 13 03 04" nrOfStates="5"/>
+                </data>
+                <siteModel id="morphSiteModel.s:Angiosperms_Doyle_Endress_20145" spec="SiteModel" gammaCategoryCount="4">
+                    <parameter id="mutationRate.s:Angiosperms_Doyle_Endress_20145" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:Angiosperms_Doyle_Endress_20145" estimate="false" name="shape">1.0</parameter>
+                    <substModel id="LewisMK.s:Angiosperms_Doyle_Endress_20145" spec="LewisMK" datatype="@morphDataType.Angiosperms_Doyle_Endress_20145"/>
+                </siteModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="ucldStdevScaler.c:Angiosperms_Doyle_Endress_2014" spec="ScaleOperator" parameter="@ucldStdev.c:Angiosperms_Doyle_Endress_2014" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Angiosperms_Doyle_Endress_2014" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Angiosperms_Doyle_Endress_2014" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Angiosperms_Doyle_Endress_2014" spec="SwapOperator" intparameter="@rateCategories.c:Angiosperms_Doyle_Endress_2014" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Angiosperms_Doyle_Endress_2014" spec="UniformOperator" parameter="@rateCategories.c:Angiosperms_Doyle_Endress_2014" weight="10.0"/>
+
+    <operator id="ucldMeanScaler.c:Angiosperms_Doyle_Endress_2014" spec="ScaleOperator" parameter="@ucldMean.c:Angiosperms_Doyle_Endress_2014" scaleFactor="0.5" weight="1.0"/>
+
+    <operator id="relaxedUpDownOperator.c:Angiosperms_Doyle_Endress_2014" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="ucldMean.c:Angiosperms_Doyle_Endress_2014"/>
+        <down idref="Tree.t:Angiosperms_Doyle_Endress_2014"/>
+    </operator>
+
+    <operator id="originScalerFBD.t:Angiosperms_Doyle_Endress_2014" spec="ScaleOperator" parameter="@originFBD.t:Angiosperms_Doyle_Endress_2014" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="divRateScalerFBD.t:Angiosperms_Doyle_Endress_2014" spec="ScaleOperator" parameter="@diversificationRateFBD.t:Angiosperms_Doyle_Endress_2014" scaleFactor="0.75" weight="10.0"/>
+
+    <operator id="turnoverScalerFBD.t:Angiosperms_Doyle_Endress_2014" spec="ScaleOperator" parameter="@turnoverFBD.t:Angiosperms_Doyle_Endress_2014" scaleFactor="0.75" weight="10.0"/>
+
+    <operator id="samplingPScalerFBD.t:Angiosperms_Doyle_Endress_2014" spec="ScaleOperator" parameter="@samplingProportionFBD.t:Angiosperms_Doyle_Endress_2014" scaleFactor="0.75" weight="10.0"/>
+
+    <operator id="LeafToSAFBD.t:Angiosperms_Doyle_Endress_2014" spec="LeafToSampledAncestorJump" tree="@Tree.t:Angiosperms_Doyle_Endress_2014" weight="10.0"/>
+
+    <operator id="SAWilsonBaldingFBD.t:Angiosperms_Doyle_Endress_2014" spec="SAWilsonBalding" tree="@Tree.t:Angiosperms_Doyle_Endress_2014" weight="10.0"/>
+
+    <operator id="SAWideFBD.t:Angiosperms_Doyle_Endress_2014" spec="SAExchange" isNarrow="false" tree="@Tree.t:Angiosperms_Doyle_Endress_2014" weight="10.0"/>
+
+    <operator id="SANarrowFBD.t:Angiosperms_Doyle_Endress_2014" spec="SAExchange" tree="@Tree.t:Angiosperms_Doyle_Endress_2014" weight="10.0"/>
+
+    <operator id="SAUniformOperatorFBD.t:Angiosperms_Doyle_Endress_2014" spec="SAUniform" tree="@Tree.t:Angiosperms_Doyle_Endress_2014" weight="20.0"/>
+
+    <operator id="SATreeRootScalerFBD.t:Angiosperms_Doyle_Endress_2014" spec="SAScaleOperator" rootOnly="true" scaleFactor="0.95" tree="@Tree.t:Angiosperms_Doyle_Endress_2014" weight="1.0"/>
+
+    <operator id="SATreeScalerFBD.t:Angiosperms_Doyle_Endress_2014" spec="SAScaleOperator" scaleFactor="0.95" tree="@Tree.t:Angiosperms_Doyle_Endress_2014" weight="3.0"/>
+
+    <logger id="tracelog" fileName="Angiosperms_Doyle_Endress_2014.log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log id="TreeHeight.t:Angiosperms_Doyle_Endress_2014" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Angiosperms_Doyle_Endress_2014"/>
+        <log idref="morphTreeLikelihood.Angiosperms_Doyle_Endress_20144"/>
+        <log idref="morphTreeLikelihood.Angiosperms_Doyle_Endress_20145"/>
+        <log idref="morphTreeLikelihood.Angiosperms_Doyle_Endress_20142"/>
+        <log idref="ucldStdev.c:Angiosperms_Doyle_Endress_2014"/>
+        <log id="rate.c:Angiosperms_Doyle_Endress_2014" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Angiosperms_Doyle_Endress_2014" tree="@Tree.t:Angiosperms_Doyle_Endress_2014"/>
+        <log idref="birthRate2.t:Angiosperms_Doyle_Endress_2014"/>
+        <log idref="relativeDeathRate2.t:Angiosperms_Doyle_Endress_2014"/>
+        <log idref="ucldMean.c:Angiosperms_Doyle_Endress_2014"/>
+        <log idref="FBD.t:Angiosperms_Doyle_Endress_2014"/>
+        <log idref="diversificationRateFBD.t:Angiosperms_Doyle_Endress_2014"/>
+        <log idref="turnoverFBD.t:Angiosperms_Doyle_Endress_2014"/>
+        <log idref="samplingProportionFBD.t:Angiosperms_Doyle_Endress_2014"/>
+        <log idref="originFBD.t:Angiosperms_Doyle_Endress_2014"/>
+        <log id="SACountFBD.t:Angiosperms_Doyle_Endress_2014" spec="beast.evolution.tree.SampledAncestorLogger" tree="@Tree.t:Angiosperms_Doyle_Endress_2014"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Angiosperms_Doyle_Endress_2014" fileName="$(tree).trees" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Angiosperms_Doyle_Endress_2014" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Angiosperms_Doyle_Endress_2014" tree="@Tree.t:Angiosperms_Doyle_Endress_2014"/>
+    </logger>
+
+</run>
+
+</beast>

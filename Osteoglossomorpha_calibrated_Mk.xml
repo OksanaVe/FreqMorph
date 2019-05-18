@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="BEAST v2.5.1:SA v2.0.1:MM v1.1.1" version="2.5">
+
+
+    <data id="Osteoglossomorphs_Murray_et_al_2016" dataType="standard">
+                            <sequence id="seq_Cladocyclus87" taxon="Cladocyclus" totalcount="4" value="0?00?00?0000???????0?00000?0?0?000??0?000???0?0?0?????0?0???????000001000???000000-0?0?0123"/>
+                            <sequence id="seq_Clupeoidei87" taxon="Clupeoidei" totalcount="4" value="2?00?10?1110???????0?00000?0?0?000??0?000?????0?0?????1?0???????000000102100000000-00000123"/>
+                            <sequence id="seq_Elops87" taxon="Elops" totalcount="4" value="000000011000000000000000000100000000000000000000000000020000000000001000???0?00???-???20123"/>
+                            <sequence id="seq_Lycoptera87" taxon="Lycoptera" totalcount="4" value="??0011021000????????000000?0?0?0000000000??1??000?????0000??0?0010{01}100002??0010000-0?020123"/>
+                            <sequence id="seq_Paralycoptera87" taxon="Paralycoptera" totalcount="4" value="0?00????000??????????1???0?0???0001?0?000?????0?????????0???????200?0010????0?0001-1???0123"/>
+                            <sequence id="seq_Tanolepis87" taxon="Tanolepis" totalcount="4" value="0000?1???00????????1?10??0???0?0000?0?000?????0?????????0????????00?00102???020001-1???0123"/>
+                            <sequence id="seq_Sinoglossus87" taxon="Sinoglossus" totalcount="4" value="?000?2????10???????1?11??0?????000??0?110???????????????0???????2????0??2??0?2211000??10123"/>
+                            <sequence id="seq_Eohiodon87" taxon="Eohiodon" totalcount="4" value="200011121010??00???1010001?200?0010110010001??010?0???0010000-001001{01}0001??2010000-0?120123"/>
+                            <sequence id="seq_Hiodon87" taxon="Hiodon" totalcount="4" value="2000111210{01}000000001010001120010010110010001000100000000100001001001{01}{01}001112010000-00120123"/>
+                            <sequence id="seq_Joffrichthys87" taxon="Joffrichthys" totalcount="4" value="??00?23211?0???????101?010?0???2000?00110?????????????00-???0??02?1?0010???0?1{02}??0????10123"/>
+                            <sequence id="seq_Heterotis87" taxon="Heterotis" totalcount="4" value="22201230011010100001011010011100001110110200211--111000101010000211200122010112110000020123"/>
+                            <sequence id="seq_Arapaima87" taxon="Arapaima" totalcount="4" value="32001232011010101011011010011110001100110200201--211000001100000211200122011112111000010123"/>
+                            <sequence id="seq_Phareodus87" taxon="Phareodus" totalcount="4" value="?221013?0010010????1010010001??2101100010210??001?????000??11?002?1?00122??001210112?010123"/>
+                            <sequence id="seq_Pantodon87" taxon="Pantodon" totalcount="4" value="22101132001011101001110010000110102101010100200011101-0010011010211200112010111001120000123"/>
+                            <sequence id="seq_Singida87" taxon="Singida" totalcount="4" value="221010300000???????101001000???2102?--010?1???????????0000?11010211200102??001000102?000123"/>
+                            <sequence id="seq_Scleropages87" taxon="Scleropages" totalcount="4" value="321002330111100001010100100011{01}210111001011021001110000001011010211200122010102101120000123"/>
+                            <sequence id="seq_Osteoglossum87" taxon="Osteoglossum" totalcount="4" value="3210023301111000010101001000111210111001011021001110000001011010211200122010102101120000123"/>
+                            <sequence id="seq_Ostariostoma87" taxon="Ostariostoma" totalcount="4" value="2?000???1010???????10?0100?????3000?1?0101????????????0011??0?001101001?2??0010000-0??00123"/>
+                            <sequence id="seq_Mormyroidea87" taxon="Mormyroidea" totalcount="4" value="1000{01}022{01}010{01}011{23}1111101022002100001111113?{01}21{01}??2{12}00100?0110000110200112111120000001{01}20123"/>
+                            <sequence id="seq_Petrocephalus87" taxon="Petrocephalus" totalcount="4" value="100000220010001121111101022002100001111113?0210002100100?011000011020011?????20????????0123"/>
+                            <sequence id="seq_Gnathonemus87" taxon="Gnathonemus" totalcount="4" value="100010220010101131111101022002100001111113?1211--2200100?011000011020011??????0????????0123"/>
+                            <sequence id="seq_Campylomormyrus87" taxon="Campylomormyrus" totalcount="4" value="100000220010101121111101022002100001111113?1211--2200100?011000011020011?????20????????0123"/>
+                            <sequence id="seq_Notopteridae87" taxon="Notopteridae" totalcount="4" value="11{12}0022{12}1110{01}100101111010{02}30011200210001111011010110{01}?10010100?1221200102111121100001000123"/>
+                            <sequence id="seq_Chitala87" taxon="Chitala" totalcount="4" value="11200221111001001011110100300112002100011110110101101-100101000122120010???1?21??1????00123"/>
+                            <sequence id="seq_Xenomystus87" taxon="Xenomystus" totalcount="4" value="11100222111001001011110102300112002100011110110101101-100101000122120010???1?21??0????00123"/>
+                            <sequence id="seq_Papyrocranus87" taxon="Papyrocranus" totalcount="4" value="11100222111011001011110102300112002100011110110101100010010100-122120{01}10???1?21??0????00123"/>
+                            <sequence id="seq_Palaeonotopterus87" taxon="Palaeonotopterus" totalcount="4" value="1000???210100?00110?1?????000???????????????????????????-?1???????????????????????-????0123"/>
+                            <sequence id="seq_Chauliopareion87" taxon="Chauliopareion" totalcount="4" value="2010003-0100???????101000000???2101?10110?1???????????0010?110101?-??0102??0?1?00000?110123"/>
+                            <sequence id="seq_Xixiaichthys87" taxon="Xixiaichthys" totalcount="4" value="0?100132??000??????1?1100??00?001021000102????0???0???001?0?0?00001200001??001000002??10123"/>
+                            <sequence id="seq_Shuleichthys87" taxon="Shuleichthys" totalcount="4" value="3010010210100??0?0?11???0?100?0{01}0001?0-10210??00?01???001??0010010{01}100001??00?0000-1??20123"/>
+                            <sequence id="seq_Pisces_Point87" taxon="Pisces_Point" totalcount="4" value="2?100??0101????????11?0??0?10??0100?10010?????00??????0010??0?00110111001??00????0?0??00123"/>
+                            <userDataType id="StandardData.0" spec="beast.evolution.datatype.StandardData" ambiguities="01 23 12 02" nrOfStates="4"/>
+                        </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="10000000" storeEvery="1000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:Osteoglossomorphs_Murray_et_al_2016" name="stateNode">
+            <trait id="dateTrait.t:Osteoglossomorphs_Murray_et_al_2016" spec="beast.evolution.tree.TraitSet" traitname="date-backward">
+                Cladocyclus=112.6,
+Clupeoidei=0,
+Elops=0,
+Lycoptera=125,
+Paralycoptera=150,
+Tanolepis=130,
+Sinoglossus=0,
+Eohiodon=52,
+Hiodon=0,
+Joffrichthys=56,
+Heterotis=26,
+Arapaima=0,
+Phareodus=66,
+Pantodon=0,
+Singida=46,
+Scleropages=68,
+Osteoglossum=0,
+Ostariostoma=85,
+Mormyroidea=0,
+Petrocephalus=0,
+Gnathonemus=0,
+Campylomormyrus=0,
+Notopteridae=0,
+Chitala=0,
+Xenomystus=0,
+Papyrocranus=0,
+Palaeonotopterus=98,
+Chauliopareion=50,
+Xixiaichthys=125,
+Shuleichthys=125,
+Pisces_Point=69                <taxa id="TaxonSet.Osteoglossomorphs_Murray_et_al_20162" spec="TaxonSet">
+                    <alignment id="Osteoglossomorphs_Murray_et_al_20162" spec="FilteredAlignment" ascertained="true" excludefrom="59" excludeto="61" filter="4-5,9-16,18-25,29,31,33-34,36-41,43-44,46-49,52-55,57-64,67,69-71,74-75,77,80-83,85-86,88-89">
+                        <data idref="Osteoglossomorphs_Murray_et_al_2016"/>
+                        <userDataType id="morphDataType.Osteoglossomorphs_Murray_et_al_20162" spec="beast.evolution.datatype.StandardData" ambiguities="01 23 12 02" nrOfStates="2"/>
+                    </alignment>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.Osteoglossomorphs_Murray_et_al_20162"/>
+        </tree>
+        <parameter id="ucldStdev.c:Osteoglossomorphs_Murray_et_al_2016" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:Osteoglossomorphs_Murray_et_al_2016" spec="parameter.IntegerParameter" dimension="60">1</stateNode>
+        <parameter id="birthRate2.t:Osteoglossomorphs_Murray_et_al_2016" lower="0.0" name="stateNode" upper="10000.0">1.0</parameter>
+        <parameter id="relativeDeathRate2.t:Osteoglossomorphs_Murray_et_al_2016" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="ucldMean.c:Osteoglossomorphs_Murray_et_al_2016" name="stateNode">1.0</parameter>
+        <parameter id="diversificationRateFBD.t:Osteoglossomorphs_Murray_et_al_2016" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="turnoverFBD.t:Osteoglossomorphs_Murray_et_al_2016" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="samplingProportionFBD.t:Osteoglossomorphs_Murray_et_al_2016" lower="0.0" name="stateNode" upper="1.0">0.5</parameter>
+        <parameter id="originFBD.t:Osteoglossomorphs_Murray_et_al_2016" lower="0.0" name="stateNode">200.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Chauliopareion1.prior" name="stateNode">50.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Cladocyclus1.prior" name="stateNode">112.6</parameter>
+        <parameter id="parameter.hyperNormal-mean-Cladocyclus1.prior1" name="stateNode">125.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Paralycoptera1.prior" name="stateNode">150.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Tanolepis1.prior" name="stateNode">130.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Eohiodon1.prior" name="stateNode">52.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Heterotis1.prior" name="stateNode">26.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Phareodus1.prior" name="stateNode">66.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Ostariostoma1.prior" name="stateNode">85.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Palaeonotopterus1.prior" name="stateNode">98.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Xixiaichthys1.prior" name="stateNode">125.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Shuleichthys1.prior" name="stateNode">125.0</parameter>
+        <parameter id="parameter.hyperNormal-mean-Pisces_Point1.prior" name="stateNode">69.0</parameter>
+    </state>
+
+    <init id="RandomTree.t:Osteoglossomorphs_Murray_et_al_2016" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:Osteoglossomorphs_Murray_et_al_2016" taxa="@Osteoglossomorphs_Murray_et_al_20162">
+        <populationModel id="ConstantPopulation0.t:Osteoglossomorphs_Murray_et_al_2016" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:Osteoglossomorphs_Murray_et_al_2016" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="FBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="beast.evolution.speciation.SABirthDeathModel" conditionOnRhoSampling="true" diversificationRate="@diversificationRateFBD.t:Osteoglossomorphs_Murray_et_al_2016" origin="@originFBD.t:Osteoglossomorphs_Murray_et_al_2016" samplingProportion="@samplingProportionFBD.t:Osteoglossomorphs_Murray_et_al_2016" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016" turnover="@turnoverFBD.t:Osteoglossomorphs_Murray_et_al_2016">
+                <parameter id="rFBD.t:Osteoglossomorphs_Murray_et_al_2016" lower="0.0" name="removalProbability" upper="1.0">0.0</parameter>
+                <parameter id="rhoFBD.t:Osteoglossomorphs_Murray_et_al_2016" estimate="false" lower="0.0" name="rho" upper="1.0">1.0</parameter>
+            </distribution>
+            <prior id="diversificationRatePriorFBD.t:Osteoglossomorphs_Murray_et_al_2016" name="distribution" x="@diversificationRateFBD.t:Osteoglossomorphs_Murray_et_al_2016">
+                <Uniform id="Uniform.10" name="distr" upper="Infinity"/>
+            </prior>
+            <prior id="originPriorFBD.t:Osteoglossomorphs_Murray_et_al_2016" name="distribution" x="@originFBD.t:Osteoglossomorphs_Murray_et_al_2016">
+                <Uniform id="Uniform.9" name="distr" upper="Infinity"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Chauliopareion1.prior" name="distribution" x="@parameter.hyperNormal-mean-Chauliopareion1.prior">
+                <OneOnX id="OneOnX.9" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Cladocyclus1.prior" name="distribution" x="@parameter.hyperNormal-mean-Cladocyclus1.prior">
+                <OneOnX id="OneOnX.10" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Eohiodon1.prior" name="distribution" x="@parameter.hyperNormal-mean-Eohiodon1.prior">
+                <OneOnX id="OneOnX.13" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Heterotis1.prior" name="distribution" x="@parameter.hyperNormal-mean-Heterotis1.prior">
+                <OneOnX id="OneOnX.14" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Ostariostoma1.prior" name="distribution" x="@parameter.hyperNormal-mean-Ostariostoma1.prior">
+                <OneOnX id="OneOnX.16" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Palaeonotopterus1.prior" name="distribution" x="@parameter.hyperNormal-mean-Palaeonotopterus1.prior">
+                <OneOnX id="OneOnX.17" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Paralycoptera1.prior" name="distribution" x="@parameter.hyperNormal-mean-Paralycoptera1.prior">
+                <OneOnX id="OneOnX.11" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Phareodus1.prior" name="distribution" x="@parameter.hyperNormal-mean-Phareodus1.prior">
+                <OneOnX id="OneOnX.15" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Pisces_Point1.prior" name="distribution" x="@parameter.hyperNormal-mean-Pisces_Point1.prior">
+                <OneOnX id="OneOnX.20" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Shuleichthys1.prior" name="distribution" x="@parameter.hyperNormal-mean-Shuleichthys1.prior">
+                <OneOnX id="OneOnX.19" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Tanolepis1.prior" name="distribution" x="@parameter.hyperNormal-mean-Tanolepis1.prior">
+                <OneOnX id="OneOnX.12" name="distr"/>
+            </prior>
+            <prior id="HyperPrior.hyperNormal-mean-Xixiaichthys1.prior" name="distribution" x="@parameter.hyperNormal-mean-Xixiaichthys1.prior">
+                <OneOnX id="OneOnX.18" name="distr"/>
+            </prior>
+            <prior id="samplingProportionPriorFBD.t:Osteoglossomorphs_Murray_et_al_2016" name="distribution" x="@samplingProportionFBD.t:Osteoglossomorphs_Murray_et_al_2016">
+                <Uniform id="Uniform.12" name="distr"/>
+            </prior>
+            <prior id="turnoverPriorFBD.t:Osteoglossomorphs_Murray_et_al_2016" name="distribution" x="@turnoverFBD.t:Osteoglossomorphs_Murray_et_al_2016">
+                <Uniform id="Uniform.11" name="distr"/>
+            </prior>
+            <prior id="MeanRatePrior.c:Osteoglossomorphs_Murray_et_al_2016" name="distribution" x="@ucldMean.c:Osteoglossomorphs_Murray_et_al_2016">
+                <Uniform id="Uniform.6" name="distr" upper="Infinity"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:Osteoglossomorphs_Murray_et_al_2016" name="distribution" x="@ucldStdev.c:Osteoglossomorphs_Murray_et_al_2016">
+                <Gamma id="Gamma.0" name="distr">
+                    <parameter id="RealParameter.4" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.5" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+            <distribution id="Chauliopareion1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Chauliopareion1" spec="TaxonSet">
+                    <taxon id="Chauliopareion" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.3" mean="@parameter.hyperNormal-mean-Chauliopareion1.prior" name="distr">
+                    <parameter id="RealParameter.131" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Cladocyclus1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Cladocyclus1" spec="TaxonSet">
+                    <taxon id="Cladocyclus" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.5" mean="@parameter.hyperNormal-mean-Cladocyclus1.prior" name="distr">
+                    <parameter id="RealParameter.135" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Eohiodon1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Eohiodon1" spec="TaxonSet">
+                    <taxon id="Eohiodon" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.8" mean="@parameter.hyperNormal-mean-Eohiodon1.prior" name="distr">
+                    <parameter id="RealParameter.141" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Heterotis1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Heterotis1" spec="TaxonSet">
+                    <taxon id="Heterotis" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.10" mean="@parameter.hyperNormal-mean-Heterotis1.prior" name="distr">
+                    <parameter id="RealParameter.145" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Joffrichthys1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Joffrichthys1" spec="TaxonSet">
+                    <taxon id="Joffrichthys" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.9" name="distr">
+                    <parameter id="RealParameter.142" estimate="false" name="mean">56.0</parameter>
+                    <parameter id="RealParameter.143" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Ostariostoma1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Ostariostoma1" spec="TaxonSet">
+                    <taxon id="Ostariostoma" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.14" mean="@parameter.hyperNormal-mean-Ostariostoma1.prior" name="distr">
+                    <parameter id="RealParameter.153" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Palaeonotopterus1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Palaeonotopterus1" spec="TaxonSet">
+                    <taxon id="Palaeonotopterus" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.15" mean="@parameter.hyperNormal-mean-Palaeonotopterus1.prior" name="distr">
+                    <parameter id="RealParameter.155" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Paralycoptera1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Paralycoptera1" spec="TaxonSet">
+                    <taxon id="Paralycoptera" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.6" mean="@parameter.hyperNormal-mean-Paralycoptera1.prior" name="distr">
+                    <parameter id="RealParameter.137" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Phareodus1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Phareodus1" spec="TaxonSet">
+                    <taxon id="Phareodus" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.11" mean="@parameter.hyperNormal-mean-Phareodus1.prior" name="distr">
+                    <parameter id="RealParameter.147" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Pisces_Point1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Pisces_Point1" spec="TaxonSet">
+                    <taxon id="Pisces_Point" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.18" mean="@parameter.hyperNormal-mean-Pisces_Point1.prior" name="distr">
+                    <parameter id="RealParameter.161" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Scleropages1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Scleropages1" spec="TaxonSet">
+                    <taxon id="Scleropages" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.13" name="distr">
+                    <parameter id="RealParameter.150" estimate="false" name="mean">68.0</parameter>
+                    <parameter id="RealParameter.151" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Shuleichthys1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Shuleichthys1" spec="TaxonSet">
+                    <taxon id="Shuleichthys" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.17" mean="@parameter.hyperNormal-mean-Shuleichthys1.prior" name="distr">
+                    <parameter id="RealParameter.159" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Singida1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Singida1" spec="TaxonSet">
+                    <taxon id="Singida" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.12" name="distr">
+                    <parameter id="RealParameter.148" estimate="false" name="mean">46.0</parameter>
+                    <parameter id="RealParameter.149" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Tanolepis1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Tanolepis1" spec="TaxonSet">
+                    <taxon id="Tanolepis" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.7" mean="@parameter.hyperNormal-mean-Tanolepis1.prior" name="distr">
+                    <parameter id="RealParameter.139" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+            <distribution id="Xixiaichthys1.prior" spec="beast.math.distributions.MRCAPrior" monophyletic="true" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <taxonset id="Xixiaichthys1" spec="TaxonSet">
+                    <taxon id="Xixiaichthys" spec="Taxon"/>
+                </taxonset>
+                <Normal id="Normal.16" mean="@parameter.hyperNormal-mean-Xixiaichthys1.prior" name="distr">
+                    <parameter id="RealParameter.157" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </distribution>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="morphTreeLikelihood.Osteoglossomorphs_Murray_et_al_20162" spec="TreeLikelihood" data="@Osteoglossomorphs_Murray_et_al_20162" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <siteModel id="morphSiteModel.s:Osteoglossomorphs_Murray_et_al_20162" spec="SiteModel" gammaCategoryCount="4">
+                    <parameter id="mutationRate.s:Osteoglossomorphs_Murray_et_al_20162" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:Osteoglossomorphs_Murray_et_al_20162" estimate="false" name="shape">1.0</parameter>
+                    <substModel id="LewisMK.s:Osteoglossomorphs_Murray_et_al_20162" spec="LewisMK" datatype="@morphDataType.Osteoglossomorphs_Murray_et_al_20162"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:Osteoglossomorphs_Murray_et_al_2016" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" clock.rate="@ucldMean.c:Osteoglossomorphs_Murray_et_al_2016" rateCategories="@rateCategories.c:Osteoglossomorphs_Murray_et_al_2016" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                    <LogNormal id="LogNormalDistributionModel.c:Osteoglossomorphs_Murray_et_al_2016" S="@ucldStdev.c:Osteoglossomorphs_Murray_et_al_2016" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.3" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                </branchRateModel>
+            </distribution>
+            <distribution id="morphTreeLikelihood.Osteoglossomorphs_Murray_et_al_20163" spec="TreeLikelihood" branchRateModel="@RelaxedClock.c:Osteoglossomorphs_Murray_et_al_2016" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <data id="Osteoglossomorphs_Murray_et_al_20163" spec="FilteredAlignment" ascertained="true" data="@Osteoglossomorphs_Murray_et_al_2016" excludefrom="21" excludeto="24" filter="2-3,6,26,28,30,35,45,50-51,56,65-66,68,72-73,76,78-79,84,87,88-90">
+                    <userDataType id="morphDataType.Osteoglossomorphs_Murray_et_al_20163" spec="beast.evolution.datatype.StandardData" ambiguities="01 23 12 02" nrOfStates="3"/>
+                </data>
+                <siteModel id="morphSiteModel.s:Osteoglossomorphs_Murray_et_al_20163" spec="SiteModel" gammaCategoryCount="4">
+                    <parameter id="mutationRate.s:Osteoglossomorphs_Murray_et_al_20163" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:Osteoglossomorphs_Murray_et_al_20163" estimate="false" name="shape">1.0</parameter>
+                    <substModel id="LewisMK.s:Osteoglossomorphs_Murray_et_al_20163" spec="LewisMK" datatype="@morphDataType.Osteoglossomorphs_Murray_et_al_20163"/>
+                </siteModel>
+            </distribution>
+            <distribution id="morphTreeLikelihood.Osteoglossomorphs_Murray_et_al_20164" spec="TreeLikelihood" branchRateModel="@RelaxedClock.c:Osteoglossomorphs_Murray_et_al_2016" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016">
+                <data id="Osteoglossomorphs_Murray_et_al_20164" spec="FilteredAlignment" ascertained="true" data="@Osteoglossomorphs_Murray_et_al_2016" excludefrom="7" excludeto="11" filter="1,7-8,17,27,32,42,88-91">
+                    <userDataType id="morphDataType.Osteoglossomorphs_Murray_et_al_20164" spec="beast.evolution.datatype.StandardData" ambiguities="01 23 12 02" nrOfStates="4"/>
+                </data>
+                <siteModel id="morphSiteModel.s:Osteoglossomorphs_Murray_et_al_20164" spec="SiteModel" gammaCategoryCount="4">
+                    <parameter id="mutationRate.s:Osteoglossomorphs_Murray_et_al_20164" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="gammaShape.s:Osteoglossomorphs_Murray_et_al_20164" estimate="false" name="shape">1.0</parameter>
+                    <substModel id="LewisMK.s:Osteoglossomorphs_Murray_et_al_20164" spec="LewisMK" datatype="@morphDataType.Osteoglossomorphs_Murray_et_al_20164"/>
+                </siteModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="ucldStdevScaler.c:Osteoglossomorphs_Murray_et_al_2016" spec="ScaleOperator" parameter="@ucldStdev.c:Osteoglossomorphs_Murray_et_al_2016" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:Osteoglossomorphs_Murray_et_al_2016" spec="IntRandomWalkOperator" parameter="@rateCategories.c:Osteoglossomorphs_Murray_et_al_2016" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:Osteoglossomorphs_Murray_et_al_2016" spec="SwapOperator" intparameter="@rateCategories.c:Osteoglossomorphs_Murray_et_al_2016" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:Osteoglossomorphs_Murray_et_al_2016" spec="UniformOperator" parameter="@rateCategories.c:Osteoglossomorphs_Murray_et_al_2016" weight="10.0"/>
+
+    <operator id="ucldMeanScaler.c:Osteoglossomorphs_Murray_et_al_2016" spec="ScaleOperator" parameter="@ucldMean.c:Osteoglossomorphs_Murray_et_al_2016" scaleFactor="0.5" weight="1.0"/>
+
+    <operator id="relaxedUpDownOperator.c:Osteoglossomorphs_Murray_et_al_2016" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="ucldMean.c:Osteoglossomorphs_Murray_et_al_2016"/>
+        <down idref="Tree.t:Osteoglossomorphs_Murray_et_al_2016"/>
+    </operator>
+
+    <operator id="originScalerFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="ScaleOperator" parameter="@originFBD.t:Osteoglossomorphs_Murray_et_al_2016" scaleFactor="0.75" weight="3.0"/>
+
+    <operator id="divRateScalerFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="ScaleOperator" parameter="@diversificationRateFBD.t:Osteoglossomorphs_Murray_et_al_2016" scaleFactor="0.75" weight="10.0"/>
+
+    <operator id="turnoverScalerFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="ScaleOperator" parameter="@turnoverFBD.t:Osteoglossomorphs_Murray_et_al_2016" scaleFactor="0.75" weight="10.0"/>
+
+    <operator id="samplingPScalerFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="ScaleOperator" parameter="@samplingProportionFBD.t:Osteoglossomorphs_Murray_et_al_2016" scaleFactor="0.75" weight="10.0"/>
+
+    <operator id="LeafToSAFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="LeafToSampledAncestorJump" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016" weight="10.0"/>
+
+    <operator id="SAWilsonBaldingFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="SAWilsonBalding" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016" weight="10.0"/>
+
+    <operator id="SAWideFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="SAExchange" isNarrow="false" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016" weight="10.0"/>
+
+    <operator id="SANarrowFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="SAExchange" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016" weight="10.0"/>
+
+    <operator id="SAUniformOperatorFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="SAUniform" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016" weight="20.0"/>
+
+    <operator id="SATreeRootScalerFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="SAScaleOperator" rootOnly="true" scaleFactor="0.95" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016" weight="1.0"/>
+
+    <operator id="SATreeScalerFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="SAScaleOperator" scaleFactor="0.95" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016" weight="3.0"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Chauliopareion1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Chauliopareion1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Cladocyclus1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Cladocyclus1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Paralycoptera1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Paralycoptera1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Tanolepis1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Tanolepis1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Eohiodon1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Eohiodon1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Heterotis1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Heterotis1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Phareodus1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Phareodus1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Ostariostoma1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Ostariostoma1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Palaeonotopterus1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Palaeonotopterus1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Xixiaichthys1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Xixiaichthys1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Shuleichthys1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Shuleichthys1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="hyperScaler.hyperNormal-mean-Pisces_Point1.prior" spec="ScaleOperator" parameter="@parameter.hyperNormal-mean-Pisces_Point1.prior" scaleFactor="0.5" weight="0.1"/>
+
+    <logger id="tracelog" fileName="Osteoglossomorphs_Murray_et_al_2016.log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log id="TreeHeight.t:Osteoglossomorphs_Murray_et_al_2016" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="morphTreeLikelihood.Osteoglossomorphs_Murray_et_al_20164"/>
+        <log idref="morphTreeLikelihood.Osteoglossomorphs_Murray_et_al_20163"/>
+        <log idref="morphTreeLikelihood.Osteoglossomorphs_Murray_et_al_20162"/>
+        <log idref="ucldStdev.c:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log id="rate.c:Osteoglossomorphs_Murray_et_al_2016" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:Osteoglossomorphs_Murray_et_al_2016" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="birthRate2.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="relativeDeathRate2.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="ucldMean.c:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="FBD.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="diversificationRateFBD.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="turnoverFBD.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="samplingProportionFBD.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="originFBD.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log id="SACountFBD.t:Osteoglossomorphs_Murray_et_al_2016" spec="beast.evolution.tree.SampledAncestorLogger" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016"/>
+        <log idref="Chauliopareion1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Chauliopareion1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Chauliopareion1.prior"/>
+        <log idref="Cladocyclus1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Cladocyclus1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Cladocyclus1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Cladocyclus1.prior"/>
+        <log idref="Paralycoptera1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Paralycoptera1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Paralycoptera1.prior"/>
+        <log idref="Tanolepis1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Tanolepis1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Tanolepis1.prior"/>
+        <log idref="Eohiodon1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Eohiodon1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Eohiodon1.prior"/>
+        <log idref="Joffrichthys1.prior"/>
+        <log idref="Heterotis1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Heterotis1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Heterotis1.prior"/>
+        <log idref="Phareodus1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Phareodus1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Phareodus1.prior"/>
+        <log idref="Singida1.prior"/>
+        <log idref="Scleropages1.prior"/>
+        <log idref="Ostariostoma1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Ostariostoma1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Ostariostoma1.prior"/>
+        <log idref="Palaeonotopterus1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Palaeonotopterus1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Palaeonotopterus1.prior"/>
+        <log idref="Xixiaichthys1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Xixiaichthys1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Xixiaichthys1.prior"/>
+        <log idref="Shuleichthys1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Shuleichthys1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Shuleichthys1.prior"/>
+        <log idref="Pisces_Point1.prior"/>
+        <log idref="parameter.hyperNormal-mean-Pisces_Point1.prior"/>
+        <log idref="HyperPrior.hyperNormal-mean-Pisces_Point1.prior"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="1000">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:Osteoglossomorphs_Murray_et_al_2016" fileName="$(tree).trees" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:Osteoglossomorphs_Murray_et_al_2016" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:Osteoglossomorphs_Murray_et_al_2016" tree="@Tree.t:Osteoglossomorphs_Murray_et_al_2016"/>
+    </logger>
+
+</run>
+
+</beast>
