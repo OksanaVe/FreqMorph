@@ -1,0 +1,6 @@
+library(diversitree)
+a <- runif(1, 0, 1)
+b <- runif(1, 0, a)
+div_rates <- c(a, b)
+tree <- tree.bd(div_rates, max.taxa=50)
+write.tree (tree, file="TrueTree.tre", append = FALSE)

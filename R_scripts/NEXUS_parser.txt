@@ -1,0 +1,54 @@
+library(phangorn)
+library(phytools)
+library(diversitree)
+
+
+matrices <- list.files("C:\\Users\\Oksan\\Documents\\Papers\\FreqMorph\\EmpData\\PLANTS", pattern="*.nex", full.names=TRUE)
+setwd("C:\\Users\\Oksan\\Documents\\Papers\\FreqMorph\\EmpData\\PLANTS\\FM_parts")
+
+# Use Liam Revel's wrapper to write matrices in standard data format; modified to specify symbols for compatibility with software other than Mesquite
+writeNexusData<-function(x, file, format = "dna", interleaved=FALSE){
+  if(format=="dna"||format=="DNA") write.nexus.data(x,file,format,interleaved=FALSE)
+  else if(format=="protein"||format=="PROTEIN") write.nexus.data(x,file,format,interleaved=FALSE)
+  else if(format=="standard"||format=="STANDARD"){
+   X<-vector(mode="list",length=nrow(x))
+   for(i in 1:nrow(x)) X[[i]]<-x[i,]
+   names(X)<-rownames(x)
+   write.nexus.data(X,file,format="dna",interleaved=FALSE)
+   ff<-readLines(file)
+   ff<-gsub("DNA","STANDARD SYMBOLS=\"0 1 2 3\" ",ff)
+   write(ff,file)
+  }
+}
+
+for (n in 1:length(matrices)) {
+
+dir_name <- tools::file_path_sans_ext(basename(matrices[n]))
+path <- paste0("C:\\Users\\Oksan\\Documents\\Papers\\FreqMorph\\EmpData\\PLANTS\\", dir_name)
+dir.create(path)
+
+mtrx <- read.nexus.data(matrices[n])
+
+part = matrix(0, length(mtrx), 1)
+
+rownames(part) <- names(mtrx)
+
+l <- length(mtrx)*5
+
+for (j in 1:l){
+for (i in 1:length(mtrx)) {
+part[i] <- mtrx[[i]][[j]]
+spec <- paste0(path, "/CHAR","_", j, ".nex")
+
+}
+#part <- replace(part, part == 1, 0)
+#part <- replace(part, part == 2, 1)
+#part <- replace(part, part==3, 2)
+#part <- replace(part, part==4, 3)
+
+
+writeNexusData(part, spec, format="standard", interleaved=FALSE)
+}
+
+}
+

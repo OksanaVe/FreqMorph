@@ -1,0 +1,199 @@
+library(phangorn)
+library(phytools)
+library(diversitree)
+
+dirs <- list.dirs("C:/Users/Oksan/Documents/Papers/FreqMorph/SimData/Multistate/50/50t_100ch/FM_parts", full.names = TRUE, recursive = FALSE)
+
+for (x in 1:100) {
+
+
+parts <- list.files(dirs[x], pattern="*.nex", full.names=TRUE)
+setwd("C:/Users/Oksan/Documents/Papers/FreqMorph/SimData/Multistate/50/50t_100ch/NEW_FM_50t_100ch_XMLs")
+a <- basename(dirs[x])
+a <- gsub("TrueTree_", "", a)
+a <- gsub(".tre", "", a)
+f_name <- paste0(a, ".xml")
+xml <- file(f_name)
+writeLines(c("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><beast beautitemplate=\'Standard\' beautistatus=\'\' namespace=\"beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood\" required=\"MM v1.0.5\" version=\"2.4\">"), con=xml, sep="\n")
+
+for (j in 1:length(parts)) {
+part_ini <- read.nexus.data(parts[1])
+part <- read.nexus.data(parts[j])
+
+states <- length(unique(part))
+states_ini <- length(unique(part_ini))
+values <- paste0(unique(part), collapse=",")
+vals <- gsub(",", "", values)
+
+
+name <- tools::file_path_sans_ext(basename(parts[j]))
+
+cat(paste0("<data id=\"", name, "\" dataType=\"standard\">"), file=f_name, sep="\n", append=TRUE)
+
+for (i in 1:length(part)) {
+cat(paste0("<sequence id=\"seq_", names(part)[i],"_", j, "\"", " taxon=\"", names(part)[i], "\" totalcount=\"", states, "\" value=\"", part[i], vals, "\"/>" 
+ 
+), file=f_name, sep="\n", append=TRUE)
+
+}
+
+
+cat(paste0(
+"<userDataType id=\"StandardData.", j, "\" spec=\"beast.evolution.datatype.StandardData\" ambiguities=\"\" nrOfStates=\"", states, "\">", "\n",
+"<charstatelabels id=\"UserDataType.", j, "\" spec=\"beast.evolution.datatype.UserDataType\" characterName=\"", name, "\" codeMap=\"\" states=\"-1\" value=\"\"/>", "\n", "</userDataType>", "\n", "</data>"), file=f_name, sep="\n", append=TRUE)
+}
+
+id <- tools::file_path_sans_ext(basename(parts[1]))
+
+cat(paste0(
+"<map name=\"Uniform\" >beast.math.distributions.Uniform</map>", "\n",
+"<map name=\"Exponential\" >beast.math.distributions.Exponential</map>", "\n",
+"<map name=\"LogNormal\" >beast.math.distributions.LogNormalDistributionModel</map>", "\n",
+"<map name=\"Normal\" >beast.math.distributions.Normal</map>", "\n",
+"<map name=\"Beta\" >beast.math.distributions.Beta</map>", "\n",
+"<map name=\"Gamma\" >beast.math.distributions.Gamma</map>", "\n",
+"<map name=\"LaplaceDistribution\" >beast.math.distributions.LaplaceDistribution</map>", "\n",
+"<map name=\"prior\" >beast.math.distributions.Prior</map>", "\n",
+"<map name=\"InverseGamma\" >beast.math.distributions.InverseGamma</map>", "\n",
+"<map name=\"OneOnX\" >beast.math.distributions.OneOnX</map>", "\n",
+"<run id=\"mcmc\" spec=\"MCMC\" chainLength=\"20000000\" storeEvery=\"1000\">", "\n", 
+	"<state id=\"state\" storeEvery=\"1000\">", "\n", 
+        "<tree id=\"Tree.t:", a, "\" name=\"stateNode\">", "\n",
+            "<taxonset id=\"TaxonSet.", id, "_1\" spec=\"TaxonSet\">", "\n",
+                "<alignment id=\"", id, "_1\" spec=\"FilteredAlignment\" ascertained=\"true\" excludefrom=\"1\" excludeto=\"3\" filter=\"1,2-3\">", "\n",
+                    "<data idref=\"", id, "\"/>", "\n", 
+                    "<userDataType id=\"morphDataType.", id, "_1\" spec=\"beast.evolution.datatype.StandardData\" ambiguities=\"\" nrOfStates=\"", states_ini, "\"/>", "\n", 
+                "</alignment>", "\n", 
+            "</taxonset>", "\n", 
+        "</tree>", "\n", 
+	"<parameter id=\"ucldStdev.c:", id, "\" lower=\"0.0\" name=\"stateNode\">0.1</parameter>", "\n", 
+	"<stateNode id=\"rateCategories.c:", id, "\" spec=\"parameter.IntegerParameter\" dimension=\"170\">1</stateNode>", "\n", 
+        "<parameter id=\"birthRate.t:", a, "\" name=\"stateNode\">1.0</parameter>", "\n", 
+	"<parameter id=\"relativeDeathRate.t:", a, "\" lower=\"0.0\" name=\"stateNode\" upper=\"1.0\">0.5</parameter>", "\n",
+    "</state>", "\n", 
+	 "<init id=\"RandomTree.t:", a, "\" spec=\"beast.evolution.tree.RandomTree\" estimate=\"false\" initial=\"@Tree.t:", a, "\" taxa=\"@", id, "\">", "\n", 
+        "<populationModel id=\"ConstantPopulation0.t:", a, "\" spec=\"ConstantPopulation\">", "\n", 
+            "<parameter id=\"randomPopSize.t:", a, "\" name=\"popSize\">1.0</parameter>", "\n", 
+        "</populationModel>", "\n", 
+    "</init>", "\n", 
+
+
+
+
+
+    "<distribution id=\"posterior\" spec=\"util.CompoundDistribution\">", "\n", 
+        "<distribution id=\"prior\" spec=\"util.CompoundDistribution\">", "\n", 
+            "<distribution id=\"BirthDeath.t:", a, "\" spec=\"beast.evolution.speciation.BirthDeathGernhard08Model\" birthDiffRate=\"@birthRate.t:", a, "\" relativeDeathRate=\"@relativeDeathRate.t:", a, "\" tree=\"@Tree.t:", a, "\"/>", "\n", 
+            "<prior id=\"BirthRatePrior.t:", a, "\" name=\"distribution\" x=\"@birthRate.t:", a, "\">", "\n", 
+                "<Uniform id=\"Uniform.285\" name=\"distr\" upper=\"1000.0\"/>", "\n",
+            "</prior>", "\n", 
+            "<prior id=\"DeathRatePrior.t:", a, "\" name=\"distribution\" x=\"@relativeDeathRate.t:", a, "\">", "\n", 
+                "<Uniform id=\"Uniform.286\" name=\"distr\"/>", "\n",
+            "</prior>", "\n", 
+            "<prior id=\"ucldStdevPrior.c:", id, "\" name=\"distribution\" x=\"@ucldStdev.c:", id, "\">", "\n", 
+                "<Gamma id=\"Gamma.0\" name=\"distr\">", "\n", 
+                    "<parameter id=\"RealParameter.143\" estimate=\"false\" name=\"alpha\">0.5396</parameter>", "\n", 
+                    "<parameter id=\"RealParameter.144\" estimate=\"false\" name=\"beta\">0.3819</parameter>", "\n", 
+                "</Gamma>", "\n", 
+            "</prior>", "\n", 
+        "</distribution>", "\n", 
+        "<distribution id=\"likelihood\" spec=\"util.CompoundDistribution\" useThreads=\"true\">", "\n", 
+            "<distribution id=\"morphTreeLikelihood.", id, "_1\" spec=\"TreeLikelihood\" data=\"@", id, "\" tree=\"@Tree.t:", a, "\">", "\n", 
+                "<siteModel id=\"morphSiteModel.s:", id, "_1\" spec=\"SiteModel\" gammaCategoryCount=\"4\">", "\n",
+                    "<parameter id=\"mutationRate.s:", id, "_1\" estimate=\"false\" name=\"mutationRate\">1.0</parameter>", "\n", 
+                    "<parameter id=\"gammaShape.s:", id, "_1\" estimate=\"false\" name=\"shape\">1.0</parameter>", "\n", 
+                    "<substModel id=\"FreqMorph.s:", id, "_1\" spec=\"FreqMorph\" datatype=\"@morphDataType.", id, "_1\">", "\n", 
+                    	"<frequencies data=\"@", id, "_1\" estimate=\"true\" id=\"freqs.", id, "\" spec=\"Frequencies\"/>", "\n", 
+                    "</substModel>", "\n", 
+                "</siteModel>", "\n", 
+                "<branchRateModel id=\"RelaxedClock.c:", id, "\" spec=\"beast.evolution.branchratemodel.UCRelaxedClockModel\" rateCategories=\"@rateCategories.c:", id, "\" tree=\"@Tree.t:", a, "\">", "\n", 
+                    "<LogNormal id=\"LogNormalDistributionModel.c:", id, "\" S=\"@ucldStdev.c:", id, "\" meanInRealSpace=\"true\" name=\"distr\">", "\n", 
+                        "<parameter id=\"RealParameter.142\" estimate=\"false\" lower=\"0.0\" name=\"M\" upper=\"1.0\">1.0</parameter>", "\n", 
+                    "</LogNormal>", "\n", 
+                    "<parameter id=\"ucldMean.c:", id, "\" estimate=\"false\" name=\"clock.rate\">1.0</parameter>", "\n", 
+                "</branchRateModel>", "\n", 
+            "</distribution>"), 
+file=f_name, sep="\n", append=TRUE)
+
+for (n in 2:length(parts)) {
+index <- tools::file_path_sans_ext(basename(parts[n]))
+part <- read.nexus.data(parts[n])
+
+states <- length(unique(part))
+values <- paste0(unique(part), collapse=",")
+vals <- gsub(",", "", values)
+cat(paste0(
+
+"<distribution id=\"morphTreeLikelihood.", index, "_", n, "\" spec=\"TreeLikelihood\" branchRateModel=\"@RelaxedClock.c:", id, "\" tree=\"@Tree.t:", a,"\">", "\n",
+     "<data id=\"", index, "_", n, "\" spec=\"FilteredAlignment\" ascertained=\"true\" excludefrom=\"1\" excludeto=\"3\" filter=\"1,2-3\">", "\n",
+     "<data idref=\"", index, "\"/>", "\n",
+     "<userDataType id=\"morphDataType.", index, "_", n, "\" spec=\"beast.evolution.datatype.StandardData\" ambiguities=\"\" nrOfStates=\"", states, "\"/>", "\n",
+     "</data>", "\n",
+     "<siteModel id=\"morphSiteModel.s:", index, "_", n, "\" spec=\"SiteModel\" gammaCategoryCount=\"4\">", "\n",
+     "<parameter id=\"mutationRate.s:", index, "_", n, "\" estimate=\"false\" name=\"mutationRate\">1.0</parameter>", "\n",
+     "<parameter id=\"gammaShape.s:", index, "_", n, "\" estimate=\"false\" name=\"shape\">1.0</parameter>", "\n",
+     "<substModel id=\"FreqMorph.s:", index, "_", n, "\" spec=\"FreqMorph\" datatype=\"@morphDataType.", index, "_", n, "\">", "\n",
+     "<frequencies data=\"@", index, "_", n, "\" estimate=\"true\" id=\"freqs.", index, "\" spec=\"Frequencies\"/>", "\n",
+     "</substModel>", "\n",
+     "</siteModel>", "\n",
+     "</distribution>", "\n"),
+file=f_name, sep="\n", append=TRUE)
+
+}
+
+cat(paste0(
+"</distribution>", "\n", 
+    "</distribution>", "\n",
+
+    "<operator id=\"ucldStdevScaler.c:", id, "\" spec=\"ScaleOperator\" parameter=\"@ucldStdev.c:", id, "\" scaleFactor=\"0.5\" weight=\"3.0\"/>", "\n", 
+    "<operator id=\"CategoriesRandomWalk.c:", id, "\" spec=\"IntRandomWalkOperator\" parameter=\"@rateCategories.c:", id, "\" weight=\"10.0\" windowSize=\"1\"/>", "\n",
+    "<operator id=\"CategoriesSwapOperator.c:", id, "\" spec=\"SwapOperator\" intparameter=\"@rateCategories.c:", id, "\" weight=\"10.0\"/>", "\n",
+    "<operator id=\"CategoriesUniform.c:", id, "\" spec=\"UniformOperator\" parameter=\"@rateCategories.c:", id, "\" weight=\"10.0\"/>", "\n",
+    "<operator id=\"BirthDeathTreeScaler.t:", a, "\" spec=\"ScaleOperator\" scaleFactor=\"0.5\" tree=\"@Tree.t:", a, "\" weight=\"3.0\"/>", "\n",
+    "<operator id=\"BirthDeathTreeRootScaler.t:", a, "\" spec=\"ScaleOperator\" rootOnly=\"true\" scaleFactor=\"0.5\" tree=\"@Tree.t:", a, "\" weight=\"3.0\"/>", "\n",
+    "<operator id=\"BirthDeathUniformOperator.t:", a, "\" spec=\"Uniform\" tree=\"@Tree.t:", a, "\" weight=\"30.0\"/>", "\n",
+    "<operator id=\"BirthDeathSubtreeSlide.t:", a, "\" spec=\"SubtreeSlide\" tree=\"@Tree.t:", a, "\" weight=\"15.0\"/>", "\n",
+    "<operator id=\"BirthDeathNarrow.t:", a, "\" spec=\"Exchange\" tree=\"@Tree.t:", a, "\" weight=\"15.0\"/>", "\n",
+    "<operator id=\"BirthDeathWide.t:", a, "\" spec=\"Exchange\" isNarrow=\"false\" tree=\"@Tree.t:", a, "\" weight=\"3.0\"/>", "\n",
+    "<operator id=\"BirthDeathWilsonBalding.t:", a, "\" spec=\"WilsonBalding\" tree=\"@Tree.t:", a, "\" weight=\"3.0\"/>", "\n",
+    "<operator id=\"BirthRateScaler.t:", a, "\" spec=\"ScaleOperator\" parameter=\"@birthRate.t:", a, "\" scaleFactor=\"0.75\" weight=\"3.0\"/>", "\n",
+    "<operator id=\"DeathRateScaler.t:", a, "\" spec=\"ScaleOperator\" parameter=\"@relativeDeathRate.t:", a, "\" scaleFactor=\"0.75\" weight=\"3.0\"/>", "\n",
+
+"<logger id=\"tracelog\" fileName=\"", a, ".log\" logEvery=\"1000\" model=\"@posterior\" sanitiseHeaders=\"true\" sort=\"smart\">", "\n",
+        "<log idref=\"posterior\"/>", "\n",
+        "<log idref=\"likelihood\"/>", "\n", 
+        "<log idref=\"prior\"/>", "\n", 
+	"<log id=\"TreeHeight.t:", a, "\" spec=\"beast.evolution.tree.TreeHeightLogger\" tree=\"@Tree.t:", a, "\"/>", "\n", 
+	"<log idref=\"ucldStdev.c:", id, "\"/>", "\n", 
+        "<log id=\"rate.c:", id, "\" spec=\"beast.evolution.branchratemodel.RateStatistic\" branchratemodel=\"@RelaxedClock.c:", id, "\" tree=\"@Tree.t:", a, "\"/>", "\n",
+        "<log idref=\"BirthDeath.t:", a, "\"/>", "\n", 
+        "<log idref=\"birthRate.t:", a, "\"/>", "\n", 
+        "<log idref=\"relativeDeathRate.t:", a, "\"/>", "\n"
+
+), file=f_name, sep="\n", append=TRUE)
+
+for (m in 1:length(parts)) {
+index1 <- tools::file_path_sans_ext(basename(parts[m]))
+cat(paste0("<log idref=\"morphTreeLikelihood.", index1, "_", m, "\"/>"), file=f_name, sep="\n", append=TRUE)
+}
+
+cat(paste0(
+"</logger>", "\n", 
+    "<logger id=\"screenlog\" logEvery=\"1000\">", "\n", 
+        "<log idref=\"posterior\"/>", "\n", 
+        "<log id=\"ESS.0\" spec=\"util.ESS\" arg=\"@posterior\"/>", "\n", 
+        "<log idref=\"likelihood\"/>", "\n", 
+        "<log idref=\"prior\"/>", "\n", 
+    "</logger>", "\n", 
+
+    "<logger id=\"treelog.t:", a, "\" fileName=\"$(tree).trees\" logEvery=\"1000\" mode=\"tree\">", "\n", 
+        "<log id=\"TreeWithMetaDataLogger.t:", a, "\" spec=\"beast.evolution.tree.TreeWithMetaDataLogger\" branchratemodel=\"@RelaxedClock.c:", id, "\" tree=\"@Tree.t:", a, "\"/>", "\n", 
+    "</logger>", "\n", 
+"</run>", "\n",
+
+"</beast>"
+
+), file=f_name, sep="\n", append=TRUE)
+
+close(xml)
+}
