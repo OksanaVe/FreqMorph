@@ -34,14 +34,14 @@ rownames(data) <- tre$tip.label      # add taxa names to the matrix (matching to
 for (j in 1:ncol(data))  {           # fill in data matrix
 p=runif(1)
 q=1-p
-lambda=runif(1, min=5, max=500)
+lambda=runif(1, min=0.5, max=50)
 char <- rTraitDisc(tre, model="ARD", k=2, rate=rexp(2, lambda), freq=c(p, q)) # generate each character
 
 	if(AllEqual(char) == TRUE) {
 	repeat {
 p=runif(1)
 q=1-p
-lambda=runif(1, min=5, max=500)
+lambda=runif(1, min=0.5, max=50)
 char <- rTraitDisc(tre, model="ARD", k=2, rate=rexp(2, lambda), freq=c(p, q))
 data[, j]=char
 if (AllEqual(char) == FALSE) { break}
